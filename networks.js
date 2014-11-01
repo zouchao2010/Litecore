@@ -53,5 +53,5 @@ exports.testnet = {
     'dnsseed.flappycoin.biz',
     'dnsseed.flap.so'
   ],
-  defaultClientPort: 18333
+  defaultClientPort: 33556
 };
