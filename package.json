@@ -1,39 +1,15 @@
 {
-  "name": "bitcore",
-  "description": "Bitcoin Library",
+  "name": "flappycore",
+  "description": "Flappycoin Library",
   "version": "0.1.39",
   "author": {
-    "name": "Stephen Pair",
-    "email": "stephen@bitpay.com"
+    "name": "FlappyDEV",
+    "email": "dev@goflap.io"
   },
   "contributors": [
     {
-      "name": "Stefan Thomas",
-      "email": "moon@justmoon.net"
-    },
-    {
-      "name": "Jeff Garzik",
-      "email": "jgarzik@bitpay.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    },
-    {
-      "name": "Ryan X. Charles",
-      "email": "ryan@bitpay.com"
-    },
-    {
-      "name": "Gordon Hall",
-      "email": "gordon@bitpay.com"
-    },
-    {
-      "name": "Esteban Ordano",
-      "email": "eordano@gmail.com"
+      "name": "FlappyDEV",
+      "email": "dev@goflap.io"
     }
   ],
   "keywords": [
@@ -47,7 +23,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "https://github.com/FlappyDEV/flappycore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
