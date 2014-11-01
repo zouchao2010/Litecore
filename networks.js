@@ -26,7 +26,7 @@ exports.livenet = {
     'dnsseed.flappycoin.biz',
     'dnsseed.flap.so'
   ],
-  defaultClientPort: 8333
+  defaultClientPort: 11556
 };
 
 exports.mainnet = exports.livenet;
