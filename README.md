@@ -1,34 +1,38 @@
-Bitcore
+Flappycore
 =======
 
 [![Build Status](https://travis-ci.org/bitpay/bitcore.svg?branch=master)](https://travis-ci.org/bitpay/bitcore)
 [![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore.svg)](https://coveralls.io/r/bitpay/bitcore)
 
-A pure, powerful core for your bitcoin project.
+A pure, powerful core for your Flappycoin project.
 
-Bitcore is a complete, native interface to the Bitcoin network, and provides the core functionality needed to develop apps for bitcoin.
+Flappycore is a complete, native interface to the Flappycoin network, and provides the core functionality needed to develop
+apps for Flappycoin.
 
 #Principles
 
-Bitcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Bitcoin network allows for highly resilient bitcoin infrastructure, and the developer community needs reliable, open-source tools to implement bitcoin apps and services.
+Flappycoin is a powerful new peer-to-peer platform for the next generation of financial and social technology.
+The decentralized nature of the Flappycoin network allows for highly resilient Flappycoin infrastructure, and the developer
+community needs reliable, open-source tools to implement Flappycoin apps and services.
 
-**Bitcore unchains developers from fallible, centralized APIs, and provides the tools to interact with the real Bitcoin network.**
+**Flappycore unchains developers from fallible, centralized APIs, and provides the tools to interact with the real Flappycoin network.**
 
 #Get Started
 
-Bitcore runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+Flappycore runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```
-npm install bitcore
+npm install flappycore
 ```
 
-It is a collection of objects useful to bitcoin applications; class-like idioms are enabled via [Soop](https://github.com/bitpay/soop). In most cases, a developer will require the object's class directly. For instance:
+It is a collection of objects useful to Flappycoin applications; class-like idioms are enabled via[Soop](https://github.com/bitpay/soop).
+In most cases, a developer will require the object's class directly. For instance:
 
 ```javascript
-var bitcore = require('bitcore');
-var Address = bitcore.Address;
-var Transaction = bitcore.Transaction;
-var PeerManager = bitcore.PeerManager;
+var flappycore = require('flappycore');
+var Address = flappycore.Address;
+var Transaction = flappycore.Transaction;
+var PeerManager = flappycore.PeerManager;
 ```
 
 #Examples
@@ -48,23 +52,24 @@ Javascript files available at [/examples](/examples) folder.
 
 Please use at your own risk.
 
-Bitcore is still under heavy development and not quite ready for "drop-in" production use. If you find a security issue, please email security@bitcore.io.
+Flappycore is still under heavy development and not quite ready for "drop-in" production use. If you find a security issue,
+please email dev@getflap.io
 
 #Contributing
 
-Bitcore needs some developer love. Please send pull requests for bug fixes, code optimization, and ideas for improvement.
+Flappycore needs some developer love. Please send pull requests for bug fixes, code optimization, and ideas for improvement.
 
 #Browser support
 
 ## Building the browser bundle
 
-To build bitcore full bundle for the browser (this is automatically executed after you run `npm install`):
+To build Flappycore full bundle for the browser (this is automatically executed after you run `npm install`):
 
 ```
 node browser/build.js -a
 ```
 
-This will generate a `browser/bundle.js` file which you can include in your HTML to use bitcore in the browser.
+This will generate a `browser/bundle.js` file which you can include in your HTML to use Flappycore in the browser.
 
 ##Example browser usage
 
@@ -76,10 +81,10 @@ From example/simple.html
   <body>
     <script src="../browser/bundle.js"></script>
     <script>
-      var bitcore = require('bitcore');
-      var Address = bitcore.Address;
-      var a = new Address('1KerhGhLn3SYBEQwby7VyVMWf16fXQUj5d');
-      console.log('1KerhGhLn3SYBEQwby7VyVMWf16fXQUj5d is valid? '+a.isValid());
+      var flappycore = require('flappycore');
+      var Address = flappycore.Address;
+      var a = new Address('sgrHPw4aEPos8YJDNfefsUSjPYWc5fzpLE');
+      console.log('sgrHPw4aEPos8YJDNfefsUSjPYWc5fzpLE is valid? '+a.isValid());
     </script>
   </body>
 </html>
@@ -89,25 +94,26 @@ You can check a more complex usage example at examples/example.html.
 
 ## Generating a customized browser bundle
 
-To build the main bitcore bundle, run:
+To build the main Flappycore bundle, run:
 
 ```
 node browser/build.js -m
 ```
 
-To build all features into the bitcore bundle (which will lead to a large filesize), run:
+To build all features into the Flappycore bundle (which will lead to a large file size), run:
 
 ```
 node browser/build.js -a
 ```
 
-To generate a customized bitcore bundle, you can specify which submodules you want to include in it with the -s option:
+To generate a customized Flappycore bundle, you can specify which submodules you want to include in it with the -s option:
 
 ```
-node browser/build.js -s lib/Transaction,lib/Address
+node browser/build.js -s Transaction,Address
 ```
 
-This will generate a `browser/bundle.js` containing only the Transaction and Address class, with all their dependencies.  Use this option if you are not using the whole bitcore library, to optimize the bundle size, script loading time, and general resource usage.
+This will generate a `browser/bundle.js` containing only the Transaction and Address class, with all their dependencies.
+Use this option if you are not using the whole Flappycore library, to optimize the bundle size, script loading time, and general resource usage.
 
 ## Tests
 
@@ -135,7 +141,7 @@ And then open coverage/lcov-report/index.html in your browser.
 
 #License
 
-**Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).**
+**Bitcore Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).**
 
 Copyright 2013-2014 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
 
