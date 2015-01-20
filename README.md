@@ -1,3 +1,5 @@
+Litecore coming soon..
+
 Flappycore
 =======
 
