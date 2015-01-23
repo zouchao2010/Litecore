@@ -1,5 +1,3 @@
-Litecore coming soon..
-
 Litecore
 =======
 
