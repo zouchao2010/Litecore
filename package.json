@@ -1,20 +1,24 @@
 {
-  "name": "flappycore",
-  "description": "Flappycoin Library",
+  "name": "Litecore",
+  "description": "Litecoin Library",
   "version": "0.1.39",
   "author": {
-    "name": "FlappyDEV",
-    "email": "dev@goflap.io"
+    "name": "pembo210",
+    "email": "pembo210@gmail.com"
   },
   "contributors": [
     {
       "name": "FlappyDEV",
       "email": "dev@goflap.io"
-    }
+    },
+    {
+    "name": "pembo210",
+    "email": "pembo210@gmail.com"
+  }
   ],
   "keywords": [
-    "bitcoin",
-    "btc",
+    "litecoin",
+    "ltc",
     "satoshi",
     "money",
     "currency",
@@ -23,7 +27,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FlappyDEV/flappycore.git"
+    "url": "https://github.com/pembo210/Litecore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",

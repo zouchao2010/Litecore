@@ -6,32 +6,35 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('c1c1c1c1'),
-  addressVersion: 35,
-  privKeyVersion: 128,
+  magic: hex('FBC0B6DB'),
+  addressVersion: 0x30,
+  privKeyVersion: 0xb0,
   P2SHVersion: 5,
-  hkeyPublicVersion: 0x0488b21e,
-  hkeyPrivateVersion: 0x0488ade4,
+  hkeyPublicVersion: 0x0488c42e,
+  hkeyPrivateVersion: 0x0488e1f4,
   genesisBlock: {
-    hash: hex('64B0E6B2A85682D82499EFB52038EA053CDD97B8890E472A3E33AB8CC4228801'),
-    merkle_root: hex('318868CF8A975F003AB0C2E89F21C3D39F004F74685A729A0B03CD71ACB000D6'),
+    hash: hex('E2BF047E7E5A191AA4EF34D314979DC9986E0F19251EDABA5940FD1FE365A712'),
+    merkle_root: hex('D9CED4ED1130F7B7FAAD9BE25323FFAFA33232A17C3EDF6CFD97BEE6BAFBDD97'),
     height: 0,
-    nonce: 265310,
+    nonce: 2084524493,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1392281929,
-    bits: 486604799,
+    timestamp: 1317972665,
+    bits: 504365040,
   },
   dnsSeeds: [
-    'dnsseed.flappycoin.biz',
-    'dnsseed.flap.so'
+    'dnsseed.litecointools.com',
+    'dnsseed.litecoinpool.org',
+    'dnsseed.ltc.xurious.com',
+    'dnsseed.koin-project.com',
+    'dnsseed.weminemnc.com'
   ],
-  defaultClientPort: 11556
+  defaultClientPort: 9333
 };
 
 exports.mainnet = exports.livenet;
 
-exports.testnet = {
+exports.testnet = {  //not setup for litecoin yet
   name: 'testnet',
   magic: hex('0b110907'),
   addressVersion: 0x6f,
@@ -50,8 +53,8 @@ exports.testnet = {
     bits: 486604799,
   },
   dnsSeeds: [
-    'dnsseed.flappycoin.biz',
-    'dnsseed.flap.so'
+    'xx',
+    'xx'
   ],
-  defaultClientPort: 33556
+  defaultClientPort: 19333
 };
