@@ -53,7 +53,7 @@ Javascript files available at [/examples](/examples) folder.
 Please use at your own risk.
 
 Litecore is still under heavy development and not quite ready for "drop-in" production use. If you find a security issue,
-please email pembo210@gmail
+please email zouchao2010@gmail
 
 #Contributing
 

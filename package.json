@@ -3,8 +3,8 @@
   "description": "Litecoin Library",
   "version": "0.1.39",
   "author": {
-    "name": "pembo210",
-    "email": "pembo210@gmail.com"
+    "name": "zouchao2010",
+    "email": "zouchao2010@gmail.com"
   },
   "contributors": [
     {
@@ -12,8 +12,8 @@
       "email": "dev@goflap.io"
     },
     {
-    "name": "pembo210",
-    "email": "pembo210@gmail.com"
+    "name": "zouchao2010",
+    "email": "zouchao2010@gmail.com"
   }
   ],
   "keywords": [
@@ -27,7 +27,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pembo210/Litecore.git"
+    "url": "https://github.com/zouchao2010/Litecore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
